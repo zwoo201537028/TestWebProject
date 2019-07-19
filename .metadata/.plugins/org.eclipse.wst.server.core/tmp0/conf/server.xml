@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\dev_tools\web_workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\dev_tools\web_workspace\testCSSProject\web" path="/testc" reloadable="true" source="org.eclipse.jst.jee.server:testCSSProject"><Resources><PreResources base="C:\dev_tools\web_workspace\testCSSProject\web\WEB-INF\classes" classLoaderOnly="false" className="org.apache.catalina.webresources.DirResourceSet" internalPath="/" webAppMount="/WEB-INF/classes"/></Resources></Context></Host>
+      <Context docBase="C:\eclipse-web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\eclipse-web\testCSSProject\web" path="/testc" reloadable="true" source="org.eclipse.jst.jee.server:testCSSProject"><Resources><PreResources base="C:\eclipse-web\testCSSProject\web\WEB-INF\classes" classLoaderOnly="false" className="org.apache.catalina.webresources.DirResourceSet" internalPath="/" webAppMount="/WEB-INF/classes"/></Resources></Context></Host>
     </Engine>
   </Service>
 </Server>

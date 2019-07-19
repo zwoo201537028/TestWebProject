@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/html test server-config" deployDir="wtpwebapps" hostname="localhost" id="html test server" name="html test server" runtime-id="html test server" serveModulesWithoutPublish="true" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="7">
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="html test server" runtime-id="Apache Tomcat v8.5" serveModulesWithoutPublish="true" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="10">
     <list key="modules" value0="testCSSProject::org.eclipse.jst.jee.server:testCSSProject::jst.web::3.1"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/테스트서버-config" deployDir="wtpwebapps" hostname="localhost" id="테스트서버" name="테스트서버" runtime-id="Apache Tomcat v8.5" saveSeparateContextFiles="false" serveModulesWithoutPublish="true" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="testProject::org.eclipse.jst.jee.server:testProject::jst.web::3.1"/>
   </server>
 </servers>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>page5</title>
+</head>
+<body>
+<h2>표 태그 연습</h2>
+<table width="500" height="120" border="1" align="center" cellspacing="0" cellpadding="0">
+<tr height="30"><th width="50">1</th><th>2</th><th>3</th><th>4</th><th rowspan="3" bgcolor="yellow">5</th></tr>
+<tr align="center"><td rowspan="2" bgcolor ="gray">6</td><td colspan="3" bgcolor="pink">7</td></tr>
+<tr><td>12</td><td colspan="2" align="right" valign="bottom" bgcolor ="ruby">13</td></tr>
+</table>
+</body>
+</html>

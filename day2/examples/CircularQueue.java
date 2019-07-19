@@ -16,7 +16,7 @@ public class CircularQueue {
 		}else {
 			tail = (tail+1) % arr.length;
 			arr[tail] = ++number;
-			System.out.println("´ë±â¹øÈ£ : " + arr[tail]);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½È£ : " + arr[tail]);
 			arrSize++;
 		}
 	}
@@ -25,7 +25,7 @@ public class CircularQueue {
 			System.out.println("Underflow!");
 		}else {
 			head = (head) % arr.length;
-			System.out.println(arr[head] + "¹ø °í°´´Ô !");
+			System.out.println(arr[head] + "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ !");
 			arr[head] = 0;
 			head++;
 			arrSize--;
@@ -37,23 +37,26 @@ public class CircularQueue {
 			for(int i=0; i<q.arr.length; i++) {
 				System.out.print(q.arr[i] + " ");
 			}
-			System.out.println("\n´ë±âÀÎ¿ø : " + q.arrSize + "¸í");
+			System.out.println("System Start");
+			System.out.println("\nï¿½ï¿½ï¿½ï¿½Î¿ï¿½ : " + q.arrSize + "ï¿½ï¿½");
 			System.out.println("--------------");
-			System.out.println("1. ¹øÈ£Ç¥»Ì±â");
-			System.out.println("2. °í°´È£Ãâ");
-			System.out.println("3. Á¾·á");
-			System.out.print("¸Þ´º ¹øÈ£ ÀÔ·Â : ");
+			System.out.println("1. ï¿½ï¿½È£Ç¥ï¿½Ì±ï¿½");
+			System.out.println("2. ï¿½ï¿½È£ï¿½ï¿½");
+			System.out.println("3. ï¿½ï¿½ï¿½ï¿½");
+			System.out.print("ï¿½Þ´ï¿½ ï¿½ï¿½È£ ï¿½Ô·ï¿½ : ");
 			int num = sc.nextInt();
 			switch(num) {
 			case 1: q.enqueue(); break;
 			case 2: q.dequeue(); break;
 			case 3: return;
-			default: System.out.println("Àß¸øµÈ ¹øÈ£¸¦ ÀÔ·ÂÇÏ¿´½À´Ï´Ù.");
+			default: System.out.println("ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 			}
 		}while(true);
 	}
 	public static void main(String[] args) {
 		new CircularQueue().menu();
-		System.out.println("ÇÁ·Î±×·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.");
+
+		System.out.println("ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 	}
+	
 }

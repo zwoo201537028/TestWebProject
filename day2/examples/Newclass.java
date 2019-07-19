@@ -1,9 +1,7 @@
 package day2.examples;
 
-public class YC {
-
+public class Newclass {
 	public static void main(String[] args) {
-		System.out.println("YC.agaisssn");
+		System.out.println("hellooooooooooo");
 	}
-
 }
